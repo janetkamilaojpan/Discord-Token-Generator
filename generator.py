@@ -9,7 +9,6 @@ from colorama import *
 from pystyle import *
 import hashlib
  
-
 System.Title("Discord Token Generator")
 axi = """
               ⌜――――――――――――――――――――――――――――――――――――――――――――――――――――⌝
