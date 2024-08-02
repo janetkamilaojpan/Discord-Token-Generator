@@ -1,3 +1,4 @@
+
 import os, time, json, random, base64, threading, re, sys
 try:
     import requests, colorama, cursor; from capmonster_python import HCaptchaTask
@@ -9,7 +10,7 @@ from pystyle import *
 import hashlib
  
 
-System.Title("Discord Token Generator ^| Made By Anonymous")
+System.Title("Discord Token Generator")
 axi = """
               ⌜――――――――――――――――――――――――――――――――――――――――――――――――――――⌝
               ┇      [Telegram] https://t.me/discord               ┇
