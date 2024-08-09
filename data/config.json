@@ -1,5 +1,5 @@
 {
-    "invite_code": "Put your invite code here! ONLY THE CODE", 
+    "invite_code": "Invite code here! ONLY THE CODE", 
     "capmonster_key": "Put your capmonster api key here!",
     "threads": 75,
     "online_tokens": false,

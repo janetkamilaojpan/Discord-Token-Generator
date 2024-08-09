@@ -10,7 +10,7 @@ from pystyle import *
 import hashlib
  
 System.Title("Discord Token Generator")
-axi = """
+dcg = """
               ⌜――――――――――――――――――――――――――――――――――――――――――――――――――――⌝
               ┇      [Telegram] https://t.me/discord               ┇
               ┇      [Github]  https://github.com/discord          ┇
@@ -20,7 +20,7 @@ axi = """
 
                               › Press Enter...
 """
-axigen = """
+dcggen = """
                                       
       ▄██████▄     ▄████████ ███▄▄▄▄      ▄████████    ▄████████    ▄████████     ███      ▄██████▄     ▄████████ 
      ███    ███   ███    ███ ███▀▀▀██▄   ███    ███   ███    ███   ███    ███ ▀█████████▄ ███    ███   ███    ███ 
@@ -34,8 +34,8 @@ axigen = """
                                                    
                                                    > Press Enter..."""
 System.Size(200,40)
-Anime.Fade(Center.Center(axi), Colors.rainbow, Colorate.Vertical, interval=0.020, enter=True)
-Anime.Fade(Center.Center(axigen), Colors.rainbow, Colorate.Vertical, interval=0.020, enter=True)
+Anime.Fade(Center.Center(dcg), Colors.rainbow, Colorate.Vertical, interval=0.020, enter=True)
+Anime.Fade(Center.Center(dcggen), Colors.rainbow, Colorate.Vertical, interval=0.020, enter=True)
 
 class Booster:
     def __init__(self) -> None:
@@ -76,7 +76,7 @@ class Booster:
     
     def __email__(self) -> str:
         domains = ["@gmail.com", "@yahoo.com", "@outlook.com", "@hotmail.com", "@protonmail.com"]
-        email =  "axi" + "_" + "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=8)) + random.choice(domains)
+        email =  "dcg" + "_" + "".join(random.choices("abcdefghijklmnopqrstuvwxyz", k=8)) + random.choice(domains)
         return email
     
     def __properties__(self):
